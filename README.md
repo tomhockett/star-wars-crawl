@@ -4,4 +4,6 @@
 
 [Here's the URL](https://peaceful-lowlands-89624.herokuapp.com/index.html)
 
+You will want to enable auto-play of audio because reasons. 🤷🏻‍♂️
+
 # STILL VERY MUCH IN PROGRESS
