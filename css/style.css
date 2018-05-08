@@ -44,9 +44,8 @@ body {
   position: absolute;
   top: 20%;
   left: 50%;
-  transform: translate(-50%);
   z-index: 1;
-  /* margin: auto; */
+  margin: auto;
   animation: logo 9s ease-out 9s;
   opacity: 0;
 }
