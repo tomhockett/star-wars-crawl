@@ -26,24 +26,24 @@ body {
 
 @keyframes intro {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
   20% {
-      opacity: 1;
+    opacity: 1;
   }
   90% {
-      opacity: 1;
+    opacity: 1;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 /* Set the animation & hide the logo */
-.logo {    
+.logo {
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 38%;
   z-index: 1;
   margin: auto;
   animation: logo 9s ease-out 9s;
@@ -57,23 +57,23 @@ body {
 /* Scale the logo down and maintain it centered */
 @keyframes logo {
   0% {
-      width: 18em;        
-      transform: scale(2.75);
-      opacity: 1;
+    width: 18em;
+    transform: scale(2.75);
+    opacity: 1;
   }
   50% {
-      opacity: 1;
-      width: 18em;      
+    opacity: 1;
+    width: 18em;
   }
   100% {
-      opacity: 0;
-      transform: scale(0.1);
-      width: 18em;        
+    opacity: 0;
+    transform: scale(0.1);
+    width: 18em;
   }
 }
 
 p {
-  color: #FFFF82;
+  color: #ffff82;
 }
 
 /* Set the font, lean the board, position it */
@@ -95,7 +95,7 @@ p {
 
 #board:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   bottom: 60%;
   left: 0;
   right: 0;
@@ -109,15 +109,16 @@ p {
   top: 100%;
 }
 
-#title, #subtitle {
+#title,
+#subtitle {
   text-align: center;
 }
 
 @keyframes scroll {
-    0% {
-        top: 100%;
-    }
-    100% {
-        top: -170%;
-    }
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -170%;
+  }
 }
