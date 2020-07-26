@@ -2,7 +2,7 @@
 
 (although the javascript is probably not necessary)
 
-[Here's the URL](http://www.tomsucks.fyi)
+<a href="http://www.tomsucks.fyi" target="_blank">Here's the URL</a>
 
 This is a variation on the code listed [HERE](https://dev.to/christopherkade/developing-the-star-wars-opening-crawl-in-htmlcss-2j9e) by [Christopher Kade](https://dev.to/christopherkade)
 
